@@ -1,0 +1,22 @@
+#!/usr/bin/php
+<?php
+/*
+$n = 1;
+while ($n)
+{*/
+	print("Enter a number: ");
+	if ($n = fscanf(STDIN, "%d"))
+		print($n[0]);
+/*	{
+		if (is_int($n))
+		{
+			if ($n % 2 == 0)
+				print("The number $n is even\n");
+			else
+				print("The number $n is odd\n");
+		}
+		else
+			print("'$n' is not a number\n");
+			}
+}*/
+?>

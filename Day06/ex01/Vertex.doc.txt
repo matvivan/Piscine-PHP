@@ -1,0 +1,24 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles 3-dimensional point in homogeneous space w/ color properties.
+
+Instance new Vertex is easy:
+new Vertex( array ('x', 'y', 'z' [, 'w'[, 'color']]));
+Where:
+ - 'x' key is float variable (mandatory);
+ - 'y' key is float variable (mandatory);
+ - 'z' key is float variable (mandatory);
+ - 'w' key is optional float variable (DEFAULT 1.0);
+ - 'color' key required variable of class Color (default white);
+
+FAST ACCESS to any properties through __invoke (if call as function) and __:
+$NameVar = new Vertex(array('x' => 1, 'y' => 2, 'z' => 3));
+$NameVar('_x');                             // will return 1;
+
+FAST SET use set_param():
+$nameVAR->set_param(array('x' => 0 [, 'y', ...]));
+UP TO all 5 parameters;
+
+Vertex::verbose = [true | false];
+related with __construct, __destruct and color visibility;
+
+---------------------------------------------------------------------- Vertex ->

@@ -1,0 +1,79 @@
+body {
+	background-image: url('https://i.imgur.com/7FZf9uQ.gif');
+	background-attachment: fixed;
+	background-size: cover;
+}
+table {
+	font-size: 1vw;
+	text-align: center;
+	font-weight: bold;
+	padding: auto;
+}
+caption {
+	font-size: 2.5vw;
+}
+th {
+	background-color: lavender;
+	font-size: smaller;
+	font-weight: 100;
+	width: 1%;
+}
+td {
+	border : 1px solid black;
+	font-size: 2vw;
+	width: 5%;
+	padding: 0.01%;
+}
+p {
+	font-size: 1.2vw;
+}
+#none {
+	border: 0px;
+}
+#nmetal {
+	background-color: lightgrey;
+}
+#metalid {
+	background-color: lightgreen;
+}
+#alkmet {
+	background-color: orange;
+}
+#alkeam {
+	background-color: tomato;
+}
+#transm {
+	background-color: gold;
+}
+#postran {
+	background-color: limegreen;
+}
+#halogen {
+	background-color: skyblue;
+}
+#noblegas {
+	background-color: dodgerblue;
+}
+#lanthid {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: pink;
+}
+#actinid {
+	text-overflow: ellipsis;
+	background-color: plum;
+}
+#supactid {
+	text-overflow: ellipsis;
+	background-color: mediumpurple;
+}
+div {
+	font-size: 0.6vw;
+	font-weight: 100;
+}
+#num {
+	text-align: left;
+}
+#mas {
+	text-align: right;
+}

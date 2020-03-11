@@ -1,0 +1,40 @@
+<- Vector ----------------------------------------------------------------------
+The Vector class represent a coordinates of vector in 3-dimensional space.
+
+TO SET Vector use 1 or 2 point (Vertex):
+new Vector(array (Vertex 'dest'[, Vertex 'orig']);
+- 'orig' key array is optional and DEFAULT is Vertex (0, 0, 0, 1).
+
+FAST ACCESS to coordinate use __invoke() :
+$nameVar('_x' | ... );
+
+LIST OF DEFAULT METHODS : ------------------------------------------------------
+
+float magnitude();
+Returns the vector’s length (or "norm").
+
+Vector normalize();
+Returns a normalized version of the vector.
+If the vector is already normalized, returns a fresh copy of the vector.
+
+Vector add( Vector $rhs );
+Returns the sum vector of both vectors.
+
+Vector sub( Vector $rhs );
+Returns the difference vector of both vectors.
+
+Vector opposite();
+Returns the opposite vector.
+
+Vector scalarProduct( $k );
+Returns the multiplication of the vector with a scalar.
+
+float dotProduct( Vector $rhs );
+Returns the scalar multiplication of both vectors.
+
+float cos( Vector $rhs );
+Returns the angle’sAppendix cosine between both vectors.
+
+Vector crossProduct( Vector $rhs );
+Returns the cross multiplication of both vectors (right-hand mark!)
+---------------------------------------------------------------------- Vector ->

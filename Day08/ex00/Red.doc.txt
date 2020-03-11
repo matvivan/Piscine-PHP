@@ -1,0 +1,11 @@
+<- Red ------------------------------------------------------------------------
+The Red class extend Ship class for distinguish two fleet.
+Additional properties is: 
+$angle - angle in 2-dim coordinate;
+$light - represent color to distinguish ship on the plane.
+
+For instance Red object have angle = -90deg (forward to left) and light = red;
+
+The class provides the following methods :
+....
+------------------------------------------------------------------------ Red ->

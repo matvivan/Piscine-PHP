@@ -1,0 +1,108 @@
+body {
+	background-color: rgb(80, 80, 80);
+}
+div.contain {
+	box-shadow: 8px 8px 6px;
+	background-color: rgb(144, 144, 144);
+	border-radius: 8px;
+	padding: 0.5%;
+	font-size: smaller;
+	font-family: sans-serif;
+	font-style: monospace;
+}
+div.topbar {
+	position: relative;
+	text-align: right;
+	width: 75%;
+	height: 6vmax;
+	margin: auto;
+	margin-top: 1%;
+}
+#dot42 {
+	float: left;
+	width: 32%
+}
+#loupe {
+	height: 8vmax;
+	width: 18%
+	margin-bottom: -2.5%;
+}
+#reload {
+	float: right;
+	width: 1.5%
+}
+#close {
+	position: relative;
+	margin-right: -1.7%;
+	margin-top: 6.5%;
+	float: right;
+	width: 1.5%;
+}
+div.leftbox {
+	position: absolute;
+	width: 6.3vmax;
+	margin-left: 13.5%;
+	margin-top: 1.2%;
+	padding-bottom: 20px;
+}
+div.leftbox img {
+	margin-left: 18%;
+	width: 3.8vmax;
+}
+#oeil {
+	border: 4px solid red;
+	border-radius: 3px;
+}
+div.main {
+	position: absolute;
+	width: 53%;
+	margin-left: 22.5%;
+	margin-top: 1.2%;
+}
+div.main a {
+	position: absolute;
+}
+#apple {
+	height: 23%;
+	width: 19%;
+	bottom: 20%;
+	right: 3%;
+}
+#ikea {
+	height: 38%;
+	width: 13%;
+	bottom: 5%;
+	left: 33%;
+}
+div.rightbox {
+	position: absolute;
+	width: 6.25vmax;
+	margin-left: 78.2%;
+	margin-top: 1.2%;
+	padding-bottom: 10%;
+}
+div.rightbox img {
+	margin-top: 5%;
+	margin-left: 22%;
+	width: 3.5vmax;
+}
+#bricks {
+	background-image: url("resources/brick.jpg");
+	background-size: 1.8vmax;
+	width: 100%;
+	height: 4vmax;
+}
+div.greenbox {
+	background-color: rgb(136, 255, 137);
+	position: relative;
+	height: 8.5vmax;
+	width: 27%;
+	margin-left: 10%;
+	margin-top: 28.5%;
+}
+span#d1 {
+	font-size: 1.8vmax;
+}
+span#d2 {
+	text-shadow: 4px 4px 3px red;
+}

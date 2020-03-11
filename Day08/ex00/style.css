@@ -1,0 +1,42 @@
+body {
+	background-image: url('src/background.png');
+	background-size: 20%;
+	color: white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', monospace;
+	text-align: center;
+}
+table {
+	width: 100%;
+	border-spacing: 0;
+	border: 0.1vw ridge white;
+}
+caption {
+	font-size: xx-large;
+}
+td {
+	border: 0.01vw dotted #1a0000;
+	height: 0.45vw;
+}
+td:hover {
+	border-style: solid;
+	border-color: green;
+	background-color: darkgreen;
+}
+div { display: inline-table;}
+#arena { width: 75%; }
+.control {
+	border: 0.1vw dashed;
+	border-radius: 1%;
+	width: 11%;
+}
+.phase {
+	margin-bottom: 25%;
+	border: 0.01vw solid;
+	box-shadow: 0 0 1vw 0.3vw;
+	width: 90%;
+}
+#red { color: red; }
+#blue { color: blue; }
+input[orient=vertical] {
+	transform: rotate(90deg);
+}

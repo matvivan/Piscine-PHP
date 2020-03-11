@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta name='author' content='matvivan'>
+    </head>
+    <body>
+<form>
+    <input type="text" name="left">
+    <select name="o">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <input type="text" name="right">
+    <input onclick="calc(left.value, o.value, right.value)" type="submit" value="Try me!">
+</form>
+    </body>
+    <script>
+        setInterval(function(){ alert('Please, use me...'); }, 30000);
+        function calc(l, o ,r) {
+            var message;
+            if (isNaN(l) || isNaN(r))
+                message = 'Error :(';
+            else {
+                if ((o == '/' || o == '%') && r == 0)
+                    message = "It’s over 9000!";
+                else
+                    message = eval(l + o + r);
+                console.log(message);
+            }
+            alert(message);
+        }
+    </script>
+</html>

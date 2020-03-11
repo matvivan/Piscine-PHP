@@ -1,0 +1,136 @@
+body {
+	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: auto;
+	width: 70%;
+}
+#logo {
+	margin-left: 3%;
+}
+.header {
+	display: flex;
+	padding: 1%;
+	align-content: space-around;
+}
+.account {
+	display: flex;
+	padding-top: 2%;
+	text-align: center;
+	justify-content: flex-end;
+	align-content: space-between;/*/
+	justify-content: center;
+	align-items: center;/**/
+}
+.account div {
+	margin-right: 10%;
+	display: inline;
+}
+.account a {
+	width: 10vw;
+	text-decoration: none;
+	font-weight: bold;
+	color: grey;
+}
+.account i {
+	padding: 1vw;
+}
+.account p {
+	text-align: center;
+	margin-top: 0px
+}
+input[text], input[password] {
+	text-align: center;
+	font-size: 1vw;
+}
+
+#login {
+	margin-top: 0.4vw;
+	text-align: center;
+	font-size: 1vw;
+	width: 100%;
+	height: 10%;
+}
+#register {
+	width: 100%;
+	font-size: 0.6vw;
+	height: 10%;
+}
+.category {
+	background-color: rgb(234, 178, 62);
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	width: 100%;
+}
+.category a {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	width: 10%;
+	margin: 1vw;
+	text-align: center;
+}
+.category a:hover, .category a:active {
+	color: rgb(21, 59, 109);
+}
+.title {
+	color: #333333;
+	width: 93%;
+	margin: auto;
+	margin-top: 1%;
+	text-align: left;
+}
+.title p {
+	font-size: larger;
+	color: grey;
+	margin-bottom: 0;
+	background-color: #eaeaea;
+	padding: 1%;
+	border-radius: 0.9vw;
+}
+.flex-container {
+	background-color: white;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+.item {
+	margin: 2%;
+	text-align: center;
+	flex-basis: 20%;
+	border: 0.1vw solid grey;
+	border-radius: 2vw;
+}
+.item:hover {
+	box-shadow: 0.1vw 0.1vw 1vw grey;
+}
+.item img {
+	width: 99%;
+	border-radius: 7vw;
+}
+.item p {
+	font-weight: bold;
+}
+.register {
+	text-align: center;
+	font-size: 2vw;
+}
+.register input, select {
+	size: 100;
+	height: 2vw;
+	border-radius: 0.5vw;
+}
+.register p {
+	margin-bottom: 0;
+}
+
+.error {
+	color: red;
+}
+
+.title img {
+	width: 100%;
+	border-radius: 1vw;
+}
