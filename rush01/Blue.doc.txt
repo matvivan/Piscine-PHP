@@ -1,0 +1,11 @@
+<- Blue -----------------------------------------------------------------------
+The Blue class extend Ship class for distinguish two fleet.
+Additional properties is: 
+$angle - angle in 2-dim coordinate;
+$light - represent color to distinguish ship on the plane.
+
+For instance Blue object has angle = 90deg (forward to right) and light = blue; 
+
+The class provides the following methods :
+....
+----------------------------------------------------------------------- Blue ->

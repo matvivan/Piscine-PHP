@@ -1,0 +1,12 @@
+<- Weapon ---------------------------------------------------------------------
+The Weapon created to represent huge range of gun but for now it just
+represent amount of damage.
+
+Initialised by 2;
+And return 2 if called like function:
+
+$gun = new Weapon;
+echo $gun();
+
+Will be return 2;
+--------------------------------------------------------------------- Weapon ->

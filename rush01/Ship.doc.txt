@@ -1,0 +1,14 @@
+<- Ship -----------------------------------------------------------------------
+The Ship class represent basic properties for ship object and have attributs:
+$x - horizontal dimension;
+$y - vertical dimension;
+
+For instance object has random coordinate:
+$new = new Ship;
+
+The class provides the following methods :
+__toString() - return coordinate in format "x_y_",
+where _ is digit (0 <= x < 100) or (0 <= y < 150);
+
+__invoke($name) - return $name attribut.
+----------------------------------------------------------------------- Ship ->
